@@ -1,0 +1,130 @@
+.grid > div {
+  background-color: white;
+  border: solid 1px lightgray;
+  border-radius: 7px;
+  margin-top: 25px;
+  padding: 10px;
+ width: 500px;
+ 
+ 
+
+ 
+
+ 
+ 
+}
+
+.grid{
+  display: grid;
+  grid-template-columns:480px 480px ;
+  grid-template-rows: 340px 340px;
+font-size: 21px;
+  width: 310;
+  grid-gap: 65px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px 50px 50px 50px;
+  opacity: 95%;
+  
+  
+
+
+ 
+
+}
+
+
+
+img{
+  width: 70px;
+  float: right;
+ height: 65px;
+ padding: 15px;
+  bottom: top 10px;
+  
+}
+
+.w3s{
+  display: inline-block;
+  border:solid rgb(135, 211, 21) ;
+  border-radius: 7px;
+  width:225px;
+  height: 50px;
+  padding-right: 15px;
+  
+
+
+
+  
+  
+ 
+ 
+  
+
+  
+}
+
+.google{
+  display: inline-block;
+  border:solid red ;
+  border-radius: 7px;
+  width:225px;
+  height: 50px;
+  margin-block: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15px;
+   
+
+    
+  
+}
+
+
+.line{
+  border-bottom: 1px solid;
+  display: block;
+}
+
+a[href^="http"]{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-block: 10px;
+ 
+ 
+} 
+
+
+.line{
+  opacity: 5%;
+}
+
+
+.carla{
+  opacity: 40%;
+  color: rgb(114, 111, 111);
+}
+
+.pcarla{
+  opacity: 60%;
+  color: rgb(44, 43, 43);
+}
+
+.marijn{
+  opacity: 40%;
+  color: rgb(114, 111, 111);
+}
+
+
+.pmarijn{
+  opacity: 60%;
+  color: rgb(44, 43, 43);
+}
+
+.w3s a{
+  color:rgb(135, 211, 21);
+}
+
+.google a {
+  color: red;
+}
